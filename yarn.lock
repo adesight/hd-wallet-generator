@@ -602,10 +602,6 @@ babel-types@^6.19.0, babel-types@^6.24.1, babel-types@^6.25.0:
     lodash "^4.2.0"
     to-fast-properties "^1.0.1"
 
-bable-loader@^1.0.1:
-  version "1.0.1"
-  resolved "http://registry.npm.taobao.org/bable-loader/download/bable-loader-1.0.1.tgz#8a868dbe3e83882d96c6652731e90798e11134ba"
-
 babylon@^6.17.2:
   version "6.17.4"
   resolved "http://registry.npm.taobao.org/babylon/download/babylon-6.17.4.tgz#3e8b7402b88d22c3423e137a1577883b15ff869a"

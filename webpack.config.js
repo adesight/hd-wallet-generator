@@ -9,13 +9,13 @@ module.exports = {
     },
     devtool: 'source-map',
     output: {
-        path: path.resolve(__dirname, './dist'),
+        path: path.resolve(__dirname, './docs'),
         filename: '[name].bundle.js',
     },
     plugins: [
-        new clean(['dist']),
+        new clean(['docs']),
         new html({
-            title: 'hdw',
+            title: 'HDWallet',
             hash: true
         }),
         new webpack.optimize.UglifyJsPlugin({
